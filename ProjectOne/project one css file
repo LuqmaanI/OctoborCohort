@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    #mainnews {
+        max-width: 100%;
+    }
+    #othernews {
+        max-width: 100%;
+    }
+}
+
+
+header h1 {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+header nav ul li{
+    padding: 10px 15px;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+
+border-bottom: 1px solid white;
+}
+
+span{
+    color: lightblue;
+}
+
+
+
+header h3 {
+    text-decoration: none;
+    color: white;
+
+}
+
+main {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+footer {
+text-decoration: none;
+color: white;
+
+}
+
+header{
+    border: 2px hidden;
+    overflow: hidden;
+    padding: 10px;
+}
+
+header img{
+    width: 100px;
+    height: fit-content;
+    overflow: hidden;  
+
+}
+
+#mainnews {
+    border: 2px solid white;
+    overflow: hidden;
+    padding: 50px;
+
+}
+
+
+
+#mainnews img{
+    width: 400px;
+    height: fit-content;
+    overflow: hidden;
+
+}
+
+#mainnews h4 {
+    text-decoration: none;
+    color: white;
+}
+
+#othernews {
+    border: 2px solid white;
+    overflow: hidden;
+    padding: 50px; 
+}
+
+#othernews img{
+    width: 400px;
+    height: fit-content;
+    overflow: hidden;
+
+}
+
+/*page2 */
+
+.teamlogostitle {
+    text-align: center;
+}
+
+
+
+.teamlogos{
+    border: 2px solid white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    }
+    
+    .teamlogos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px;
+
+    }
+    
+    .teamlogos img {
+        max-width: 100%; 
+        height: auto; 
+    }    
+
+
+@media (max-width: 600px) {
+    .page2 {
+        font-size: 14px;
+    }
+    .teamlogos {
+        max-width: 100%;
+    }
+
+}
+
+
+/*page3*/
+
+
+@media (max-width: 600px) {
+    .page3 {
+        font-size: 14px;
+    }
+    .page3 {
+        max-width: 100%;
+    }
+
+}
