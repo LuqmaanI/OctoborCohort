@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <title>Rugby News</title>
+
+    </head>
+
+    <link rel="stylesheet" href="projectrugbynews.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <body>
+        
+        <header>
+            <a href="projectpageone.html">
+                <img id="headerimg" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/97/World_Rugby_logo.svg/800px-World_Rugby_logo.svg.png" alt="">
+            </a>    
+
+            
+            <h1>Rugby News</h1>
+            <nav>
+                <ul>
+                <li><a href="projectpageone.html">Home</a></li>
+                <li><a href="projectpagetwo.html">Teams</a></li>
+                <li><a href="projectpagethree.html">History</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+               
+                </ul>
+            </nav>
+
+            <h3>Giving out <span>quality, accurate and useful</span> news to all rugby fans around the world.</h3>
+
+
+        </header>
+
+        <main>
+            <div id="mainnews">
+
+                <img src="https://logowik.com/content/uploads/images/rugby-world-cup-france-2023-horizontal7069.logowik.com.webp" alt="">
+                <a href="https://www.youtube.com/watch?v=FykXCpCuhNM" target="_blank">
+                    <h4>MAIN NEWS: - Rugby World Cup 2023</h4>
+                </a>    
+                <img src="https://i.guim.co.uk/img/media/2c6393ee2b011a4651e213ef79d79f46c4333aa0/0_100_3736_2241/master/3736.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=7238a452f618345010d6c6e52bf9ec44" alt="">
+                <p>South Africa's rugby union team are back home from France after winning the World Cup for a record fourth time.
+
+                    The players were met at OR Tambo Airport in Johannesburg by a huge, rapturous crowd on Tuesday.
+                    
+                    South Africa is the most successful team at the World Cup after winning four titles in eight appearances.
+                    
+                    Captain Siya Kolisi greeted supporters at the airport with the Webb Ellis Cup, won on Saturday after a nail-biting match against New Zealand.
+                    
+                    "We made a decision that we had already won the World Cup in 2019 - it's not about us as players anymore," he told a press conference on Tuesday in Johannesburg.
+                    
+                    "We wanted to make sure that this one is for the people of South Africa. This one is for every single person in South Africa. Rich, poor... it doesn't matter where you come from.</p>
+
+            </div>
+
+            <div id="othernews">
+
+                <div id="othernewstext">
+
+                    <h4>OTHER NEWS:</h4>
+
+                <div>
+
+                
+                </div id="superrugby">   
+                    <img src="https://upload.wikimedia.org/wikipedia/en/2/25/Super_Rugby_Pacific_logo.png" alt=""> 
+                  <h3>Super Rugby:</h3>
+                    <p>All Blacks captain Sam Cane will miss Super Rugby Pacific to take up a short-term contract playing rugby in Japan, with World Cup-winner Cheslin Kolbe as a teammate.
+
+                        The Chiefs co-captain will exercise an option in his contract with NZ Rugby allowing him to take time away from New Zealand and play in Japan.
+                        
+                        He will join Kolbe playing at Tokyo Sungoliath and will return to New Zealand in June to be available for selection to the All Blacks for the 2024 Steinlager Series and Rugby Championship campaign under new coach Scott Robertson.
+                        
+                        “When the opportunity to play for Suntory in 2024 came up it felt like the right time following the Rugby World Cup to try something new and also a great chance to continue to grow and learn in my rugby and life journey,” Cane said.
+                        
+                        “I’m grateful to New Zealand Rugby for their support to take this opportunity.”It wasn’t an easy decision to skip a season with the Chiefs, but I know the team is in a great place and has an incredible group of leaders in the squad and the coaching group to have a successful 2024, and I’m really pleased to be able to return in time to put my best foot forward for selection in the All Blacks.”
+                        
+                        Chiefs CEO Simon Graafhuis told the Herald the team would be “obviously gutted to lose him for the season”.</p>
+
+                </div>
+
+                <div id="RFL">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Betfred_Championship_logo.jpg" alt="">
+                    <h3>RFL Championship:</h3>
+                    <p>On the eve of Super League’s showpiece event, when all eyes are understandably on Wigan Warriors and Catalans Dragons, and all of the storylines surrounding that, it is worth pausing to consider what will happen less than 24 hours after the lights go out at Old Trafford.
+
+                        Sunday, October 15, 2023, is a significant day for the two clubs who fight it out in the Betfred Championship Grand Final, as they do so in the knowledge that whoever wins that game will enter a Super League and a sporting landscape that is about to make a seismic change.
+                        
+                        This will be the final year of automatic promotion and relegation before the IMG grading criteria take effect. This is an opportunity to enter the elite division of a sport and put down roots, not spend the season with a trapdoor looming.</p>
+                </div>
+
+                <div id="nationalrugbyleague">
+                    <img src="data:image/png;base64,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" alt="">
+                   <h3>National Rugby League:</h3>
+                   <p>The Kumuls take on Fiji in the Pacific Bowl final on Sunday at the Santos National Football Stadium in Port Moresby.
+
+                    New Warrington Wolves signing Rodrick Tai will return for Papua New Guinea this week, with his wing partner being new Salford Red Devils recruit Nene Macdonald.
+                    
+                    Leigh Leopards duo Lachlan Lam and Edwin Ipape have been named in Justin Holbrook’s starting side alongside Leeds Rhinos goal-kicker Rhyse Martin.
+                    
+                    Castleford Tigers duo Liam Horne and Nixon Putt will start on the bench for the Kumuls.
+                    
+                    As for Fiji, they will have one Super League representative in their ranks in the shape of Salford Red Devils powerhouse King Vuniyayawa.
+                    
+                    Meanwhile, new Hull FC signing Fa’amanu Brown will win his third cap for New Zealand when they take on Australia in the Pacific Cup final in Hamilton after being named on the bench in Michael Maguire’s initial side.</p>
+                </div>
+
+                <div id="rugbyfournations">
+                    <img src="https://i.ytimg.com/vi/rm2WhssGk-M/hqdefault.jpg" alt="">
+                   <h3>Rugby League 4 Nations:</h3>
+                   <p>The fixtures for the 2023 Student Rugby League Four Nations have been announced, with Sardis Road in Pontypridd hosting the games, a repeat of the 2018 tournament hosted by Wales.
+
+                    The first game kicks off on Sunday 9th July when Ireland face England (1.30pm) before Wales face Scotland at 5pm.
+                    
+                    Day two is on Wednesday 12th July with a clash between the auld enemies England and Scotland at 3.30pm before the hosts tackle Ireland at 7pm.
+                    
+                    The final day of action is Saturday 15th July, with Scotland v Ireland taking place at 1.30pm before Wales v England concludes the tournament at 5pm.
+                    
+                    This will be the seventeenth Student Rugby League 17th staging of the Four Nations, with reigning champions England looking to add a fourteenth title.
+                    
+                    Wales are the only other nation to have won the trophy, last doing so in 2012 and previously in 2009 and 2004 and whilst neither Scotland or Ireland have taken a title, Scotland has achieved second place in 2018 and 2019 and will be looking to push for victory this time around.</p>
+                </div>
+
+            </div>
+
+
+        </main>
+
+        <footer id="footer">
+            <h4>Rugby News</h4>
+
+            <p>address,<br> address address <br>
+                123123123123123
+            </p>
+
+
+    </body>
