@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="page2">
+
+    <head>
+        <title>Rugby News</title>
+
+    </head>
+
+    <link rel="stylesheet" href="projectrugbynews.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <body class="page2">
+        
+        <header>
+            <a href="projectpageone.html">
+                <img id="headerimg" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/97/World_Rugby_logo.svg/800px-World_Rugby_logo.svg.png" alt="">
+            </a> 
+
+            
+            <h1>Teams</h1>
+            <nav>
+                <ul>
+                <li><a href="projectpageone.html">Home</a></li>
+                <li><a href="projectpagetwo.html">Teams</a></li>
+                <li><a href="projectpagethree.html">History</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+               
+                </ul>
+            </nav>
+
+            <div class="teamlogostitle">
+                <h3>Click the logos to learn more about the teams!</h3> 
+            </div>
+
+
+            <div class="teamlogos">
+
+
+
+                <div>
+                    <a href="https://www.allblacks.com/" target="_blank">
+                        <img src="https://www.ruck.co.uk/wp-content/uploads/2023/09/all-blacks-logo.png" alt="">
+                    </a>    
+                </div>
+
+                <div>
+                    <a href="https://www.sarugby.co.za/" target="_blank">
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/091daa35118623.Y3JvcCwxNTg1LDEyNDAsMzUsMA.jpeg" alt="">
+                    </a>    
+                </div>
+
+                <div>
+                    <a href="https://wallabies.rugby/" target="_blank">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://www.englandrugby.com/home" target="_blank">
+                        <img src="https://logowik.com/content/uploads/images/england-rugby4325.jpg" alt="">
+                    </a>  
+                </div>
+
+                <div>
+                    <a href="https://www.wru.wales/" target="_blank">
+                        <img src="https://i.pinimg.com/originals/bc/a2/a5/bca2a5339da222762d784411346088c6.png" alt="">
+                    </a>    
+                </div>
+                
+                <div>
+                    <a href="http://en.rugby-japan.jp/?p=36" target="_blank">
+                        <img src="https://pbs.twimg.com/profile_images/1399989605529620481/fvLyy-5q_400x400.jpg" alt="">
+                    </a>    
+                </div>    
+
+            </div>    
+
+
+            <footer id="footer">
+                <h4>Rugby News</h4>
+    
+                <p>address,<br> address address <br>
+                    123123123123123
+                </p>
+            </body>
+        
+                    
